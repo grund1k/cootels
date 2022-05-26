@@ -1,21 +1,43 @@
-// @font-face {
-//   font-style: normal;
-//   font-weight: 400;
-//   font-family: "Rouble";
-
-//   font-display: swap;
-//   src:
-//     url("../fonts/rouble.woff2") format("woff2"),
-//     url("../fonts/rouble.woff") format("woff");
-// }
-
 @font-face {
+  font-family: "Inter";
+  font-weight: bold;
   font-style: normal;
-  font-weight: 400;
-  font-family: "";
 
   font-display: swap;
   src:
-    url("../fonts/.woff2") format("woff2"),
-    url("../fonts/.woff") format("woff");
+    url("../fonts/inter-bold.woff2") format("woff2"),
+    url("../fonts/inter-bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: normal;
+  font-style: normal;
+
+  font-display: swap;
+  src:
+    url("../fonts/inter-regular.woff2") format("woff2"),
+    url("../fonts/inter-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 500;
+  font-style: normal;
+
+  font-display: swap;
+  src:
+    url("../fonts/inter-medium.woff2") format("woff2"),
+    url("../fonts/inter-medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-style: normal;
+
+  font-display: swap;
+  src:
+      url("../fonts/montserrat-semibold.woff2") format("woff2"),
+      url("../fonts/montserrat-semibold.woff") format("woff");
 }
