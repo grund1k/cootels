@@ -1,0 +1,26 @@
+.decorative-image {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+  min-height: 669px;
+  max-width: 588px;
+}
+
+.decorative-image__item {
+  max-height: 588px;
+  height: 100%;
+  background-repeat: no-repeat;
+
+  &--1 {
+    background-image: url("../img/intro-1.jpg");
+  }
+
+  &--2 {
+    align-self: flex-end;
+    background-image: url("../img/intro-2.jpg");
+  }
+
+  &--3 {
+    background-image: url("../img/intro-3.jpg");
+  }
+}

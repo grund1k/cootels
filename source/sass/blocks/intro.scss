@@ -1,0 +1,42 @@
+.intro {
+  padding-top: 54px;
+}
+
+.intro__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+}
+
+.intro__text-wrapper {
+  margin-top: 135px;
+}
+
+.intro__text-wrapper h2 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: $color-lucky-point;
+  margin: 0 0 25px 0;
+}
+
+.intro__text-wrapper p {
+  max-width: 485px;
+  line-height: 150%;
+  color: $color-sheep-cover;
+  margin: 0;
+
+  &:not(:last-of-type) {
+    margin-bottom: 10px;
+  }
+
+  &:last-of-type {
+    margin-bottom: 32px;
+  }
+}
+
+.intro__btn {
+  min-width: 156px;
+  min-height: 51px;
+}
