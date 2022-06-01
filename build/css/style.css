@@ -730,6 +730,7 @@ button,
 
 .intro {
   padding-top: 54px;
+  padding-bottom: 88px;
 }
 
 .intro__wrapper {
@@ -801,6 +802,52 @@ button,
 
 .decorative-image__item--3 {
   background-image: url("../img/intro-3.jpg");
+}
+
+.about-us {
+  padding-top: 88px;
+}
+
+.about-us__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-us__image-wrapper {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.about-us__text-wrapper {
+  margin-left: 10.5%;
+  margin-top: 105px;
+}
+
+.about-us__text-wrapper h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: #192252;
+  margin: 0 0 25px 0;
+}
+
+.about-us__text-wrapper p {
+  max-width: 584px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #848FAC;
+  margin: 0 0 15px 0;
+}
+
+.about-us__text-wrapper p:last-of-type {
+  margin-bottom: 32px;
+}
+
+.about-us__btn {
+  min-width: 151px;
+  min-height: 51px;
 }
 
 .modal {
