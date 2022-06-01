@@ -806,6 +806,7 @@ button,
 
 .about-us {
   padding-top: 88px;
+  padding-bottom: 80px;
 }
 
 .about-us__wrapper {
@@ -848,6 +849,71 @@ button,
 .about-us__btn {
   min-width: 151px;
   min-height: 51px;
+}
+
+.benefits {
+  padding-top: 80px;
+}
+
+.benefits__wrapper {
+  padding-right: 146px;
+}
+
+.benefits__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.benefits__list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.benefits__list-item:nth-child(2n) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.benefits__list-item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.benefits__list-text-wrapper {
+  margin-top: 113px;
+}
+
+.benefits__list-text-wrapper h3 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: #192252;
+  margin: 0 0 24px 0;
+}
+
+.benefits__list-text-wrapper p {
+  max-width: 584px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #848FAC;
+  margin: 0;
+}
+
+.benefits__list-text-wrapper p:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+
+.benefits__list-image-wrapper {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
 .modal {
