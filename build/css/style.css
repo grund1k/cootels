@@ -857,6 +857,7 @@ button,
 
 .benefits__wrapper {
   padding-right: 146px;
+  padding-bottom: 80px;
 }
 
 .benefits__list {
@@ -914,6 +915,87 @@ button,
 .benefits__list-image-wrapper {
   -ms-flex-negative: 0;
   flex-shrink: 0;
+}
+
+.reservation {
+  padding-top: 80px;
+}
+
+.reservation__text-wrapper {
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.reservation__text-wrapper h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  color: #192252;
+  letter-spacing: -0.01em;
+  margin: 0 0 24px 0;
+}
+
+.reservation__text-wrapper p {
+  max-width: 588px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #848FAC;
+  margin: 0 auto 0 auto;
+}
+
+.reservation__text-wrapper p:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+
+.reservation__text-wrapper p:last-of-type {
+  margin-bottom: 31px;
+}
+
+.reservation__btn {
+  min-width: 165px;
+  min-height: 51px;
+}
+
+.reservation__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.rooms-list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (384px)[3];
+  grid-template-columns: repeat(3, 384px);
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.rooms-list__image-wrapper {
+  margin-bottom: 32px;
+}
+
+.rooms-list h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  margin: 0 0 15px 0;
+}
+
+.rooms-list p {
+  color: #848FAC;
+  line-height: 150%;
+  margin: 0 0 20px;
+}
+
+.rooms-list p:last-of-type {
+  margin: 0 0 34px;
+}
+
+.rooms-list a {
+  font-weight: 400;
+  color: #424F7B;
 }
 
 .modal {

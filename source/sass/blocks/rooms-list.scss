@@ -1,0 +1,31 @@
+.rooms-list {
+  display: grid;
+  grid-template-columns: repeat(3, 384px);
+  justify-content: space-between;
+}
+
+.rooms-list__image-wrapper {
+  margin-bottom: 32px;
+}
+
+.rooms-list h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  margin: 0 0 15px 0;
+}
+
+.rooms-list p {
+  color: $color-sheep-cover;
+  line-height: 150%;
+  margin: 0 0 20px;
+
+  &:last-of-type {
+    margin: 0 0 34px;
+  }
+}
+
+.rooms-list a {
+  font-weight: 400;
+  color: $color-astronaut;
+}
